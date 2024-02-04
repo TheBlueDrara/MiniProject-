@@ -26,6 +26,6 @@ stages:
         command: 'login'
     - task: Docker@2
       inputs:
-        repository: 'mini_project'
+        repository: 'thebluedrara/mini_project'
         command: 'buildAndPush'
         Dockerfile: '**/Dockerfile'
