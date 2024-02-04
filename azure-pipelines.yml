@@ -30,6 +30,6 @@ stages:
     - task: Docker@2
       inputs:
         containerRegistry: 'Docker'
-        repository: 'mini-proj'
+        repository: 'mini_project'
         command: 'buildAndPush'
         Dockerfile: '**/Dockerfile'
